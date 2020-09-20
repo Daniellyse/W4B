@@ -51,40 +51,39 @@ a:visited{
 .nav-link:active {
     color:yellow;
 }
-
-aside{
-
-    background-color: #ffd8a9;
-    width: 50%;
-    height: 155%;
-    float: right;
-    text-align: center;
-
+/* Goals, To_Do's, Imp. Dates pg. */
+.G_TD_ID{
+    width: 100%;
+    border: 8px inset #42d7a5;
+    position: relative;
+    float: left;
+}
+.M_and_Y{
+    width: 30%;
+    height: 60px;
+    border: 8px inset pink;
 
 }
+.Goals{
+    width: 46%;
+    border: 8px inset purple;
 
-section{
-    text-shadow: 2px 2px white;
-    background-color: 	#99ff99;
-    width: 50%;
-    height: 40%;
-    text-align: center;
 }
-.p_center {
-    text-shadow: none;
+.to_do{
+    width: 50.7%;
+    height: auto;
+    border: 8px inset lavenderblush;
+}
+.checklist{
+
+}
+.Imp_D{
     width: 40%;
-    height: 40%;
-    padding: 0px 30%;
-
-    
+    height: 170px;
+    border: 8px inset royalblue;
 }
-article{
-    background-color: #ecb3ff;
-    width: 50%;
-    height: 115%;
-    text-align: center;
 
-}
+
 footer{
     background-color: #ecffd2;
     width: 100%;
