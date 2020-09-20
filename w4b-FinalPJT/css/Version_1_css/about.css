@@ -11,14 +11,14 @@ header{
     text-align: center;
     text-shadow: 2px 3px lightblue;
     background-image: radial-gradient(whitE, white, #66ffe0);
-    width: 100%;
+    width: 100 vw;
     height: 60px;
     border: 8px inset #42d7a5;
 }
 
 .nav{
     background-color: #cccccc;
-    width: 100%;
+    width: 100 vw;
     height: 40px;
     border: 3px solid black;
     text-align: left;
@@ -45,8 +45,11 @@ a:visited{
 
 .nav li:hover{
     background-color: red;
-    height: 20px;
+    height: 10px;
     transition: background .3s;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
 }
 .nav-link:active {
     color:yellow;
