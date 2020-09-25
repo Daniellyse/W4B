@@ -6,7 +6,7 @@ body{
 
 }
 header{
-    /*       top right bottom left */
+
     text-align: center;
     text-shadow: 2px 3px lightblue;
     background-image: radial-gradient(whitE, white, #66ffe0);
@@ -18,50 +18,51 @@ header{
 .nav{
     background-color: #cccccc;
     width: 100 vw;
-    height: 40px;
+    height: 60px;
     border: 3px solid black;
     text-align: left;
     position: sticky; top: 0px; 
 }
-.nav li{
-    display: inline-block;
-    list-style: none;
-    line-height: 10px; 
-    padding: 0 35px;   
-    color: #fff;
-    
-}
+
 .nav-link{
     color: #fff;
-    text-decoration:none;
+    text-decoration: none;
 }
-a {
-    color: hotpink;
-}
+
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    list-style: none;
+           /* top right bottom left  */
+    color: #fff;
+    border: 3px solid black;
+    margin-right:35px;
+    
+} 
+
+   
+
 a:visited{
     color: blue;
 }
 
 .nav li:hover{
     background-color: red;
-    height: 10px;
     transition: background .3s;
     padding: 10px;
     position: relative;
-    bottom: 10px;
 }
 .nav-link:active {
     color:yellow;
-}
+} */
 
 
 .dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
+    background-color: #cccccc;
+    font-size: 19px;
+    /* padding: 16px;   #Makes the box*/
     border: none;
-  }
+}
   
 .dropdown {
 position: relative;
