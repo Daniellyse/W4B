@@ -1,7 +1,11 @@
 body{
-    background-color: white;
+    
+/*     
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
+    background-image: url(/w4b-FinalPJT/img/flower2_white.png);
     padding: 0%;
     margin: 0%;
+    height: 2000px;
     vertical-align: baseline;
 
 }
