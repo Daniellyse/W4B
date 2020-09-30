@@ -60,7 +60,7 @@ a:visited{
 
     position: absolute;
     right: 0px;
-    padding-bottom: 50px;
+    margin-top: 0px;
     
 }
 .Pink{
@@ -71,23 +71,20 @@ a:visited{
     position: absolute;
     right: 0px;
     
-    padding-bottom: 50px;
+    margin-top: 204px;
 }
 .Yellow{
     
     /* top right bottom left  */
     border: 3px solid black;
     background-color: #fff800;
-    margin-right:35px;
     
     position: absolute;
     right: 0px;
-    
-    padding-bottom: 50px;
+    margin-top: 408px;
 
 }
 .Blue{
-    
     
     /* top right bottom left  */
     border: 3px solid black;
@@ -96,7 +93,7 @@ a:visited{
     position: absolute;
     right: 0px;
     
-    padding-bottom: 50px;
+    margin-top: 612px;
 
 }
 .Red{
@@ -107,7 +104,7 @@ a:visited{
     position: absolute;
     right: 0px;
     
-    padding-bottom: 50px;
+    margin-top: 818px;
 
 }
 
