@@ -60,7 +60,60 @@ a:visited{
 
 
 
+.Green{
+    display: inline-block;
+    background-color: #09ff00;
+    /* top right bottom left  */
+    border: 3px solid black;
+    margin-right:35px;
+    float: right;
+    clear: left;
 
+    
+}
+.Pink{
+    
+    /* top right bottom left  */
+    border: 3px solid black;
+    background-color: #fc00a6;
+    margin-right:35px;
+    
+    float: right;
+    clear: left;
+}
+.Yellow{
+    
+    /* top right bottom left  */
+    border: 3px solid black;
+    background-color: #fff800;
+    margin-right:35px;
+    
+    float: right;
+    clear: left;
+
+}
+.Blue{
+    
+    
+    /* top right bottom left  */
+    border: 3px solid black;
+    background-color: #00f2ff;
+    margin-right:35px;
+    
+    float: right;
+    clear: left;
+
+}
+.Red{
+    
+    /* top right bottom left  */
+    border: 3px solid black;
+    margin-right:35px;
+    
+    float: right;
+    clear: left;
+
+}
 
 footer {
     background-color: #ecffd2;
@@ -68,7 +121,7 @@ footer {
     top: 1950px;
     width: 100%;
     height: 50px;            /* Footer height */
-  
+    
 }    
 .footer_txt {
     color: pink;

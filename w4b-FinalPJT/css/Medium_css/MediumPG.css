@@ -1,0 +1,79 @@
+body{
+    
+    
+    background-image: url(/w4b-FinalPJT/img/flower2_white.png), linear-gradient(141deg, #FFF800 0%, #2FD3D0 51%, #00CBFF 75%);
+    padding: 0%;
+    margin: 0%;
+    height: 2000px;
+    vertical-align: baseline;
+
+}
+header{
+
+    text-align: center;
+    text-shadow: 2px 3px lightblue;
+    background-image: radial-gradient(whitE, white, #66ffe0);
+    width: 100 vw;
+    height: 60px;
+    border: 8px inset #42d7a5;
+}
+
+.nav{
+    background-color: #cccccc;
+    width: 100 vw;
+    height: 60px;
+    border: 3px solid black;
+    text-align: left;
+    position: sticky; top: 0px; 
+}
+
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    list-style: none;
+    /* top right bottom left  */
+    color: #fff;
+    border: 3px solid black;
+    margin-right:35px;
+  
+} 
+a:visited{
+    color: blue;
+}
+
+.nav li:hover{
+    background-color: red;
+    transition: background .3s;
+    padding: 5px;
+    position: relative;
+}
+
+
+.nav-link:active {
+    color:yellow;
+}
+
+
+
+
+
+footer {
+    background-color: #ecffd2;
+    position: absolute;
+    top: 1950px;
+    width: 100%;
+    height: 50px;            /* Footer height */
+  
+}    
+.footer_txt {
+    color: pink;
+    margin: 0;
+    /* vertical-align: middle; */
+    text-align: center;
+
+}
