@@ -58,17 +58,19 @@ a:visited{
     color:yellow;
 }
 
+.rightNav {
+    border: 3px solid red;
+    margin-bottom: 50px;
 
+}
 
 .Green{
-    display: inline-block;
     background-color: #09ff00;
     /* top right bottom left  */
     border: 3px solid black;
-    margin-right:35px;
-    float: right;
-    clear: left;
 
+    position: absolute;
+    right: 0px;
     
 }
 .Pink{
@@ -76,10 +78,8 @@ a:visited{
     /* top right bottom left  */
     border: 3px solid black;
     background-color: #fc00a6;
-    margin-right:35px;
-    
-    float: right;
-    clear: left;
+    position: absolute;
+    right: 0px;
 }
 .Yellow{
     
@@ -88,8 +88,8 @@ a:visited{
     background-color: #fff800;
     margin-right:35px;
     
-    float: right;
-    clear: left;
+    position: absolute;
+    right: 0px;
 
 }
 .Blue{
@@ -98,20 +98,18 @@ a:visited{
     /* top right bottom left  */
     border: 3px solid black;
     background-color: #00f2ff;
-    margin-right:35px;
     
-    float: right;
-    clear: left;
+    position: absolute;
+    right: 0px;
 
 }
 .Red{
     
     /* top right bottom left  */
     border: 3px solid black;
-    margin-right:35px;
     
-    float: right;
-    clear: left;
+    position: absolute;
+    right: 0px;
 
 }
 
