@@ -17,54 +17,41 @@ header{
     height: 60px;
     border: 8px inset #42d7a5;
 }
-
 .nav{
     background-color: #cccccc;
-    width: 100 vw;
-    height: 60px;
     border: 3px solid black;
-    text-align: left;
+    width: 100 vw;
+    height: 600px;
     position: sticky; top: 0px; 
 }
-
-.nav-link{
-    color: #fff;
-    text-decoration: none;
-}
-
 .nav li{
     display: inline-block;
-    font-size: 20px;
-    list-style: none;
-    /* top right bottom left  */
+    list-style: none; 
     color: #fff;
-    border: 3px solid black;
-    margin-right:35px;
-  
-} 
+    
+}
+.nav-link{
+    color: #fff;
+    text-decoration:none;
+}
+a {
+    color: hotpink;
+}
 a:visited{
     color: blue;
 }
 
 .nav li:hover{
     background-color: red;
+    height: 10px;
     transition: background .3s;
-    padding: 5px;
+    padding: 10px;
     position: relative;
+    bottom: 10px;
 }
-
-
 .nav-link:active {
     color:yellow;
 }
-
-/* .rightNav {
-    border: 3px solid red;
-    height: 300px ;
-
-    margin-bottom: 50px;
-
-} */
 
 .Green{
     background-color: #09ff00;
@@ -73,7 +60,7 @@ a:visited{
 
     position: absolute;
     right: 0px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     
 }
 .Pink{
@@ -84,7 +71,7 @@ a:visited{
     position: absolute;
     right: 0px;
     
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 .Yellow{
     
@@ -96,7 +83,7 @@ a:visited{
     position: absolute;
     right: 0px;
     
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 
 }
 .Blue{
@@ -109,7 +96,7 @@ a:visited{
     position: absolute;
     right: 0px;
     
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 
 }
 .Red{
@@ -120,7 +107,7 @@ a:visited{
     position: absolute;
     right: 0px;
     
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 
 }
 
