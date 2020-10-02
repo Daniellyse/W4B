@@ -159,14 +159,25 @@ a:visited{
     height: 170px;
     position: relative;
     text-align: center;
+    
 }
 .test{
     position: absolute;
-    left:16px;
+    left: 16px;
     height: 139px;
     width: 120px;
     overflow: hidden;
-    
+}
+.Sticky2{
+    position: relative;
+}
+.test2{
+    position: absolute;
+    left: 30px;
+    height: 225px;
+    width: 200px;
+    overflow: hidden;
+    font-size: 25px;
 }
 footer {
     background-color: #ecffd2;
